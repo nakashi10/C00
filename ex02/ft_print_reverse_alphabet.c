@@ -7,7 +7,7 @@ void	ftprint_reverse_alphabet(void)
 	c = 'z';
 	while (c >= 'a')
 	{
-		write( 1,&c,1 );
+		write(1, &c, 1);
 		c--;
 	}
 }
