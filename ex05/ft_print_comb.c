@@ -1,7 +1,7 @@
 #include <unistd.h>
 void	put_char1(int g_1, int g_3);
-void	put_char(int n);
-int		n =0;
+void	put_char(int g_n);
+int		g_n =0;
 int		g_3 =0;
 int		g_2 =1;
 int		g_1 =2;
@@ -27,11 +27,11 @@ void	ft_print_comb(void)
 	}
 }
 
-void	put_char(int n)
+void	put_char(int g_n)
 {
 	char	c;
 
-	c = '0' + n;
+	c = '0' + g_n;
 	write(1, &c, 1);
 }
 
