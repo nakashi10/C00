@@ -52,9 +52,3 @@ void	put_char(int g_4, int g_3, int g_2, int g_1)
 	if (!(g_4 == 9 && g_3 == 8))
 		write(1, ", ", 2);
 }
-
-int main()
-{
-	ft_print_comb2();
-	return 0;
-}
