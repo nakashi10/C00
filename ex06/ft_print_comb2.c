@@ -7,7 +7,7 @@ int g_4 = 0;
 int g_3 = 0;
 int g_2 = 0;
 int g_1 = 1;
-void ft_print_comb2()
+void	ft_print_comb2()
 {
 	while(g_4<10)
 	{
@@ -36,18 +36,18 @@ void ft_print_comb2()
 		g_1=1;
 	}
 }
-void put_char(int n)
+void	put_char(int n)
 {
 	char c = '0' + n;
 	write(1, &c, 1);
 }
-void put_char3(int g_3)
+void	put_char3(int g_3)
 {
 	char c = '0' + g_3;
 	write(1, &c, 1);
 	write(1, " ", 1);
 }
-void put_char1(int g_1)
+void	put_char1(int g_1)
 {
 	char c = '0' + g_1;
 	write(1, &c, 1);

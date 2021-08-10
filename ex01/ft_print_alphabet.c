@@ -1,5 +1,5 @@
 #include <unistd.h>
-void ft_print_alphabet()
+void	ft_print_alphabet()
 {
 	char a;
 	a = 'a';	

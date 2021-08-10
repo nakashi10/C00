@@ -7,10 +7,10 @@ void ft_putnbr(int nb)
 		nb = nb / 10;
 		g_1++;
 	}
+	
 }
 int main(void)
 {
 	ft_putnbr(53454235);
 	return 0;
 }
-
